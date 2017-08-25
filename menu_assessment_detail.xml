@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/delete_assessment"
+        android:label="Delete"
+        android:id="@+id/deleteAssessment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_garbage" />
+    <item
+        android:title="@string/assessment_edit"
+        android:label="Edit"
+        android:id="@+id/editAssessment"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_pencil" />
+</menu>

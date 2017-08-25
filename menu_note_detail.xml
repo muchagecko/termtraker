@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/delete_note"
+        android:label="Delete"
+        android:id="@+id/deleteNote"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_delete" />
+    <item
+        android:title="@string/edit_note"
+        android:label="Edit"
+        android:id="@+id/editNote"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_pencil" />
+    <item
+        android:title="@string/email_note"
+        android:label="Email"
+        android:id="@+id/emailNote"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_email" />
+</menu>

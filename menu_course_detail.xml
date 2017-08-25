@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="@string/delete_course"
+        android:label="Delete"
+        android:id="@+id/deleteCourse"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_garbage" />
+    <item
+        android:title="@string/edit_course"
+        android:label="Edit"
+        android:id="@+id/editCourse"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_pencil" />
+</menu>
